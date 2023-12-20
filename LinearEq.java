@@ -11,7 +11,7 @@ public class LinearEq {
 		double b = Double.parseDouble(args[1]);
 		double c = Double.parseDouble(args[2]);
 		// prints the equation and its solution
-		System.out.println(a + " *" + " X" + " + " + b + " = " + c);
-		System.out.println(" X " + "= " + ((c-b)/a));
+		System.out.println(a + " *" + " x" + " + " + b + " = " + c);
+		System.out.println(" x " + "= " + ((c-b)/a));
 	}
 }
