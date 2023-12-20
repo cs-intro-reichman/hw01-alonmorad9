@@ -3,10 +3,10 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-		// Declares two integer variables and gets them from user
+		// declares two int variables and gets them from user
         int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
-		// prints the sum=output 
+		// prints the sum
 		System.out.println(a + " + " + b + " = " + (a+b));	
 	}
 }

@@ -17,6 +17,6 @@ public class Triangle {
 		else
 			possible = false;
 		// prints the sides and if triangle is possible
-		System.out.println(a + ", " + b + ", " + c +  ": " + possible);	
+		System.out.println(a + ", " + b + ", " + c + ": " + possible);	
 	}
 }

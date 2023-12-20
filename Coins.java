@@ -4,7 +4,7 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// decalers decalers int variable and gets them from user
+		// declares int variable and gets it from user
         int cents = Integer.parseInt(args[0]);
 		// prints the amout of quarters and cents the user needs
 		System.out.println("Use " + cents/25 + " quarters" + " and " + cents%25 + " cents");
