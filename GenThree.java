@@ -8,7 +8,6 @@ public class GenThree {
 		// declares two int variables and gets them from user
         int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
-        System.out.println("% java Gen3 " + a + " " + b);
 		// creating a new random object
 		Random random = new Random();
 		// generating three random numbers in range and prints them

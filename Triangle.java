@@ -5,11 +5,13 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-		 // declares three int variables and gets them from user
+		// declares three int variables and gets them from user
         int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
 		int c = Integer.parseInt(args[2]);
+		// declares boolean variable
 		boolean possible;
+		// checks if triangle is valid by rules
 		if (a+b > c && a+c > b && b+c > a)
 			possible = true;
 		else
