@@ -11,9 +11,9 @@ public class GenThree {
 		// creating a new random object
 		Random random = new Random();
 		// generating three random numbers in range and prints them
-		int first = random.nextInt((b - a) + 1) + a;
-		int second = random.nextInt((b - a) + 1) + a;
-		int third = random.nextInt((b - a) + 1) + a;
+		int first = random.nextInt((b - a)) + a;
+		int second = random.nextInt((b - a)) + a;
+		int third = random.nextInt((b - a)) + a;
 		System.out.println(first);
 		System.out.println(second);
 		System.out.println(third);
