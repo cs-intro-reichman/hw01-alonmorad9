@@ -8,12 +8,13 @@ public class GenThree {
 		// declares two int variables and gets them from user
         int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
-		// creating a new random object
-		Random random = new Random();
+		// creates the range 
+		int range = b - a;
 		// generating three random numbers in range and prints them
-		int first = random.nextInt((b - a)) + a;
-		int second = random.nextInt((b - a)) + a;
-		int third = random.nextInt((b - a)) + a;
+		// using random from math lib, generates number between 0-1
+		int first = (int) ((Math.random() * range) + a);
+		int second = (int) ((Math.random() * range) + a);
+		int third = (int) ((Math.random() * range) + a);
 		System.out.println(first);
 		System.out.println(second);
 		System.out.println(third);
